@@ -2,3 +2,26 @@
 <head>
 <title>Study Smart Sign Up</title>
 </head>
+.login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+}
+<img src="loginlogo.png" alt="logo" style="width:40%">
+<div class="login">
+<form action="/signup.php">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
