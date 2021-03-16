@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    font-family: Poppins;
+    color: whitesmoke;
+}
+
+body{
+    background: #09161d;
+}
+
+.header {
+    font-size: 3em;
+    padding-left: 13px;
+    position: sticky;
+}
+
+.dd {
+    font-size: 1.5em;
+    list-style: none;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    margin: 3px;
+    margin-right: 50px;
+}
+
+#logo {
+    width: 35em;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+iframe {
+    width: 99%;
+    border: none;
+    margin: 15px;
+    margin-top: 40px;
+    height: 15em;
+    margin-right: 0;
+    -moz-box-shadow: 0px -10px 3px #09161d;
+    -webkit-box-shadow: 1px 2px 3px #09161d;
+    box-shadow: 1px 2px 3px #09161d;
+}
+
+
+#top {
+    text-align: center;
+    position: static;
+    
+}
+
+#logingo {
+    width: 35em;
+    position: absolute;
+    left: 37%;
+    top: 15%;
+}
+
+#login {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2.5em;
+}
+
+.loginbox {
+    width: 15%;
+    color: black;
+    font-size: .50em !important;
+    border-radius: 12px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+#submit {
+    color: black;
+    font-size: .75em;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#welcome {
+    text-align: right;
+    margin-top: -45px;
+    margin-right: 30px;
+    font-size: 2em;
+}
+
+#notesdiv {
+    font-size: 1.45em;
+    background: transparent;
+}
+
+.bigfont {
+    font-size: 1em !important;
+}
+
+.urgent {
+    border-color: #ff0000;
+}
+
+.soon {
+    border-color: yellow;
+}
