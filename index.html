@@ -2,7 +2,7 @@
 <style>
 body {background-color: rgb(16, 20, 28);}
 }
-login {
+signup {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -24,10 +24,12 @@ logo {
 <img src="https://i.ibb.co/KLV0pzN/logothing.png">
 <div class="login">
   <center>
-  <form action="/signup.php">
-  <label for="username">Username:</label><br>
-  <input type="text" id="username" name="username"><br>
-  <label for="pwd">Password:</label><br>
-  <input type="password" id="pwd" name="pwd"><br><br>
+  <form name="signup" id="signup" action="signup.php" method="POST">
+            <label for="username">Username</label><br>
+            <input type="text" name="username" class="loginbox"><br>
+              <label for="password" id="passlabel">Password</label><br>
+            <input type="password" name="password" class="loginbox"><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
   </center>
  </div>
